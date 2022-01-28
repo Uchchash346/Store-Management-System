@@ -1,0 +1,13 @@
+/* #fa4547 */
+.create-order-heading{
+    color: #fa4547;
+}
+
+.add-circle-button{
+    color: #fa4547;
+    transform: scale(1.5);
+}
+
+.input-section{
+    border: 1px solid #feeaeb;
+}
