@@ -1,14 +1,13 @@
 /* eslint-disable no-undef */
 import React, { useState } from 'react';
 import './NavBar.css';
-
 import { NavLink } from 'react-bootstrap';
 import LocalMallSharpIcon from '@mui/icons-material/LocalMallSharp';
 import EditSharpIcon from '@mui/icons-material/EditSharp';
 import LocalPharmacySharpIcon from '@mui/icons-material/LocalPharmacySharp';
 import CreateOrder from '../CreateOrder/CreateOrder';
 import OrderHistory from '../OrderHistory/OrderHistory';
-// FaPen
+
 const SalesNavBar = () => {
     const [order, setOrder] = useState(true);
 
