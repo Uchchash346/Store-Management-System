@@ -16,7 +16,7 @@ const Login = () => {
                         <button class="font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline login-button" type="button">
                             Sign In
                         </button>
-                        <a class="inline-block align-baseline font-bold text-sm text-blue-500 hover:text-blue-800" href="#">
+                        <a class="inline-block align-baseline font-bold text-sm text-blue-500 hover:text-blue-800" href="/signup">
                             Create an Account
                         </a>
                     </div>
