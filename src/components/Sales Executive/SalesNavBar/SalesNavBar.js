@@ -22,7 +22,7 @@ const SalesNavBar = () => {
     return (
         <div style={{ background: '#fff8f8', minHeight: '120vh' }} className="sales-main-area">
             <div className='d-flex mb-5' >
-                <div style={{ background: '#FFFFFF', minHeight: '100vh', minWidth: '250px' }} className='pr-5'>
+                <div style={{ background: '#FFFFFF', minHeight: '130vh', minWidth: '250px' }} className='pr-5'>
                     <NavLink id="company-tag" to="/home" className='brand-img ' style={{ textDecoration: 'none' }}>
                         <span className="" >
                             <LocalPharmacySharpIcon style={{ transform: "scale(1.8)", color: '#fa4549' }} />

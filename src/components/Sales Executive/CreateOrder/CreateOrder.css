@@ -3,6 +3,9 @@
     color: #fa4547;
 }
 
+hr{
+    color: red;
+}
 .add-circle-button{
     color: #fa4547;
     transform: scale(1.5);
@@ -10,4 +13,19 @@
 
 .input-section{
     border: 1px solid #feeaeb;
+}
+
+.input-section:focus {
+    border: 2px solid #fa4549;
+}
+
+.create-order-customer-and-product-info{
+    background-color: #FFFFFF;
+    border: 1px solid #feeaeb;
+    border-radius: 5px;
+}
+
+.create-order-submit-button{
+    background-color: #feeaeb!important;
+    color: #fa4549!important;
 }

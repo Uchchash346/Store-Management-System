@@ -34,7 +34,52 @@ const CreateOrder = () => {
                             <div className="col-sm-2 pt-1 pl-4 add-circle-button"><AddCircleIcon /></div>
                         </div>
                     </div>
-                    <div className="col-8">col-8</div>
+                    <div className="col-8 create-order-customer-and-product-info">
+                        <div className="container">
+                            <div class="row pt-2">
+                                <div class="col">
+                                    <label htmlFor="">Customer Name</label>
+                                    <input
+                                        type="text"
+                                        className="form-control text-gray input-section mt-2"
+                                        aria-label="Sizing example input"
+                                        aria-describedby="inputGroup-sizing-sm"
+                                        placeholder="Medicine Name"
+                                    />
+                                </div>
+                                <div class="col-6"></div>
+                                <div class="col">
+                                    <label htmlFor="">Customer Contact Number</label>
+                                    <input
+                                        type="text"
+                                        className="form-control text-gray input-section mt-2"
+                                        aria-label="Sizing example input"
+                                        aria-describedby="inputGroup-sizing-sm"
+                                        placeholder="Medicine Name"
+                                    />
+                                </div>
+                            </div>
+                            <div className="container">
+                                <div class="row pt-4 mb-2">
+                                    <div class="col-sm text-end font-bold">Medicine Name</div>
+                                    <div class="col-sm text-center font-bold">Qty</div>
+                                    <div class="col-sm font-bold">Price(per Unit)</div>
+                                </div>
+                            </div>
+                            <hr />
+                            <div className="container">
+                                <div class="row pt-2 mb-2">
+                                    <div class="col-sm text-end font-bold">Total</div>
+                                    <div class="col-sm text-center"></div>
+                                    <div class="col-sm font-bold">0</div>
+                                </div>
+                            </div>
+                            <hr />
+                            <div className="container pt-3 mb-3 d-flex justify-content-center">
+                                <button type="button" class="btn btn-lg create-order-submit-button">Large button</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
