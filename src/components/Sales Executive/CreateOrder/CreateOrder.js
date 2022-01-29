@@ -76,7 +76,7 @@ const CreateOrder = () => {
                             </div>
                             <hr />
                             <div className="container pt-3 mb-3 d-flex justify-content-center">
-                                <button type="button" class="btn btn-lg create-order-submit-button">Large button</button>
+                                <button type="button" class="btn btn-lg create-order-submit-button">Create Order</button>
                             </div>
                         </div>
                     </div>
