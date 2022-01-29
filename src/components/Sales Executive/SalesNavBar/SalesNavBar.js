@@ -25,7 +25,7 @@ const SalesNavBar = () => {
                 <div style={{ background: '#FFFFFF', minHeight: '130vh', minWidth: '250px' }} className='pr-5'>
                     <NavLink id="company-tag" to="/home" className='brand-img ' style={{ textDecoration: 'none' }}>
                         <span className="" >
-                            <LocalPharmacySharpIcon style={{ transform: "scale(1.8)", color: '#fa4549' }} />
+                            <LocalPharmacySharpIcon style={{ transform: "scale(1.8)", color: '#fa4549', marginTop: "20px", marginLeft: "20px" }} />
                         </span>
                     </NavLink>
                     <div className='container mt-2 ml-3'>
