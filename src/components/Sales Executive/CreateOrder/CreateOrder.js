@@ -5,8 +5,8 @@ import AddCircleIcon from '@mui/icons-material/AddCircle';
 const CreateOrder = () => {
     return (
         <div>
-            <div>
-                <button className="" style={{}}>Logout</button>
+            <div className="d-grid  justify-content-md-end pt-2 pr-3">
+                <button type="button" class="btn  create-order-submit-button ">Log Out</button>
             </div>
             <div className="create-order-section pt-28">
                 <h2 className="text-center text-4xl create-order-heading">Create Order</h2>

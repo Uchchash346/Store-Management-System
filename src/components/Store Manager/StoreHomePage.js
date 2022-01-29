@@ -4,7 +4,7 @@ import './StoreHomePage.css';
 const StoreHomePage = () => {
     return (
         <>
-            <h1>This is Sales home page</h1>
+            <h1>This is Sales home page of Store Manager</h1>
         </>
     );
 };
