@@ -1,10 +1,11 @@
 import React from 'react';
+import InventoryNavbar from './Inventory/InventoryNavbar';
 import './StoreHomePage.css';
 
 const StoreHomePage = () => {
     return (
         <>
-            <h1>This is Sales home page of Store Manager</h1>
+            <InventoryNavbar />
         </>
     );
 };
