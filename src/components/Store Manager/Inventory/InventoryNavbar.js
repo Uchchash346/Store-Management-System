@@ -7,14 +7,12 @@ import LocalPharmacySharpIcon from '@mui/icons-material/LocalPharmacySharp';
 import PeopleAltIcon from '@mui/icons-material/PeopleAlt';
 import SalesExecutives from '../Sales Executives/SalesExecutives';
 import Inventory from '../Inventory/Inventory';
-import CreateOrders from '../Create Orders/CreateOrders'
+import CreateOrders from '../Create Orders/OrdersHistory'
 import Orders from '../Orders/Orders'
-// import CreateOrder from '../CreateOrder/CreateOrder';
-// import OrderHistory from '../OrderHistory/OrderHistory';
-
 const InventoryNavbar = () => {
 
     const [inventory, setInventory] = useState(true);
+    const [salesExecutive, setSalesExecutive] = useState(true);
 
     const handleInventory = () => {
         setInventory(true);
@@ -24,10 +22,10 @@ const InventoryNavbar = () => {
         setInventory(false);
     }
     const handleCreateOrder = () => {
-        setInventory(false);
+        setSalesExecutive(true);
     }
     const handleOrders = () => {
-        setInventory(false);
+        setSalesExecutive(false);
     }
 
     return (
@@ -53,13 +51,13 @@ const InventoryNavbar = () => {
                         </NavLink>
                     </div>
                     <div className='container mt-2 ml-3'>
-                        <NavLink onClick={handleCreateOrder} className="pt-2" style={{ textDecoration: 'none', color: "#fa4549", fontSize: '15px' }}>
+                        <NavLink href="/orders" className="pt-2" style={{ textDecoration: 'none', color: "#fa4549", fontSize: '15px' }}>
                             <EditSharpIcon />
                             <span className="pl-3">Create Order</span>
                         </NavLink>
                     </div>
                     <div className='container mt-2 ml-3'>
-                        <NavLink onClick={handleOrders} className="pt-2" style={{ textDecoration: 'none', color: "#fa4549", fontSize: '15px' }}>
+                        <NavLink href="/orderHistory" className="pt-2" style={{ textDecoration: 'none', color: "#fa4549", fontSize: '15px' }}>
                             <LocalMallSharpIcon />
                             <span className="pl-3">Orders</span>
                         </NavLink>
@@ -71,24 +69,12 @@ const InventoryNavbar = () => {
                     {
                         inventory ?
                             <Inventory /> :
-                            <SalesExecutives />?
-                            <CreateOrders />:
-                        <Orders />
-
+                            <SalesExecutives />
                     }
-                    {/* {
-                        inventory ?
-                        <SalesExecutives />:
-                        <CreateOrders />
-                    } */}
-                    {/* {
-                        inventory ?
-                            // <Inventory /> :
-                            // <SalesExecutives />
-                        <CreateOrders />: 
-                        <Orders />
 
-                    } */}
+                </div>
+                <div style={{ width: '100%', height: '100px', background: '#FFFFFF' }}>
+
                 </div>
             </div>
             <div>
