@@ -22,9 +22,6 @@ function App() {
         <Route path='/orders' element={<Orders />} />
         <Route path='/sales' element={<SalesExecutives />} />
         <Route path='/orderHistory' element={<OrdersHistory />} />
-        {/* <Route path="/*" element={<Login />}>
-          <Route path="/" element={<salesHome />} />
-        </Route> */}
       </Routes>
     </>
   );
